@@ -17,6 +17,10 @@ ul {
     display: flex;
     gap: 24px;
 }
+.navlink {
+    text-decoration: none;
+    color: #575757;
+}
 li {
     color: #575757;
 }
@@ -27,9 +31,11 @@ button{
     border: none;
     border-radius: 10px;
     font-weight: 700;
+    font-size: 16px;
 }
 .hero-sec {
     background-image: url("./assets/banner.jpg");
+    background: linear-gradient(0.3,0.7,4.1,8.5);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,4 +62,12 @@ text-align: center;
    }
    .heromainwrap {
     width:  600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    gap: 100px;
+   }
+   .herobtnwrap {
+     display: flex;
+     justify-content: center;
    }
