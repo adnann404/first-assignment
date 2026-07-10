@@ -90,7 +90,7 @@ text-align: center;
 .card-wrap {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 32px;
+    gap: 64px;
 }
 .card {
     border: solid 1px;
@@ -142,4 +142,7 @@ text-align: center;
     border: solid 1px;
     border-color: #E5E7EB;
     border-radius: 12px;
+}
+.prc-wrap {
+    gap: 6px;
 }
