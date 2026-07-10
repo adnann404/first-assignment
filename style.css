@@ -45,7 +45,7 @@ button{
     height: 100vh;
     width: 100%;
 }
-p {
+.hero-text {
 color: white;
 text-align: center;
    }
@@ -58,6 +58,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 36px;
    }
    .hero-main-wrap {
@@ -82,14 +83,63 @@ text-align: center;
     justify-content: center;
     align-items: center;
     padding-top: 80px;
+    padding-left: 115px;
+    padding-right: 115px;
     padding-bottom: 130px;
    }
 .card-wrap {
     display: grid;
-    grid-template-columns: 2,1fr;
+    grid-template-columns: repeat(2,1fr);
     gap: 32px;
 }
 .card {
     border: solid 1px;
     border-color: #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.card-data {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 10px;
+}
+.btm-name {
+    color: #575757;
+    font-size: 14px;
+}
+.top-name {
+    color: #2563EB;
+    font-size: 14px;
+}
+.name {
+    font-weight: bold;
+    font-size: 20px;
+}
+.pricing-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 196px 130px 196px;
+    gap: 48px;
+}
+.pricing-h-t-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.text-c-1 {
+    color: #575757;
+}
+.prc-card-wrap {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.prc-card {
+    padding: 32px;
+    border: solid 1px;
+    border-color: #E5E7EB;
+    border-radius: 12px;
 }
