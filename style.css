@@ -49,25 +49,47 @@ p {
 color: white;
 text-align: center;
    }
-   .heroheading {
+   .hero-heading {
     color: white;
     text-align: center;
     font-size: 64px;
    }
-   .herotextwrap {
+   .hero-text-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 36px;
    }
-   .heromainwrap {
+   .hero-main-wrap {
     width:  600px;
     display: flex;
     flex-direction: column;
     justify-content: center ;
     gap: 100px;
    }
-   .herobtnwrap {
+   .hero-btn-wrap {
      display: flex;
      justify-content: center;
    }
+   .cmn-heading {
+    font-size: 48px;
+    color: #000102;
+   }
+   .card-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 130px;
+   }
+.card-wrap {
+    display: grid;
+    grid-template-columns: 2,1fr;
+    gap: 32px;
+}
+.card {
+    border: solid 1px;
+    border-color: #E5E7EB;
+}
