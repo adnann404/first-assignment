@@ -137,7 +137,7 @@ text-align: center;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 }
-.prc-card {
+.prc-card-reg {
     padding: 32px;
     border: solid 1px;
     border-color: #E5E7EB;
