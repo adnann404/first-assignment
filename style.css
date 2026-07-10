@@ -134,18 +134,21 @@ text-align: center;
     color: #575757;
 }
 .prc-card-wrap {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 .prc-card-reg {
     padding: 32px;
     border: solid 1px;
     border-color: #E5E7EB;
     border-radius: 12px;
-    min-width: 360px;
+    min-width: 300px;
 }
 .prc-wrap {
-    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding-bottom: 20px;
     border-bottom:solid 1px;
     border-color: #E5E7EB;
@@ -182,9 +185,47 @@ background-color: white;
 color: #2563EB;
 padding: 12px 24px;
 border: solid 1px;
-border-radius: 12px;
+border-radius: 8px;
 border-color: #2563EB;
 font-weight: bold;
 display: inline;
 width: 100%;
+}
+.secondary-btn-two {
+    background-color: white;
+    color:#0D1B2A;
+    padding: 12px 24px;
+    border: solid 1px;
+    border-radius: 8px;
+    border-color: #0D1B2A;
+    font-weight: bold;
+    display: inline;
+    width: 100%;
+}
+.secondary-btn-3 {
+    background-color: #2563EB;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline;
+    width: 100%;
+}
+.prc-list-item-2 {
+    margin-bottom: 10px;
+    color: white;
+}
+.prc-card-special {
+    background-color: #0D1B2A;
+    padding: 32px;
+    border-radius: 12px;
+    min-width: 300px;
+}
+.price-special {
+    color: white;
+    font-size: 52px;
+}
+.card-type-special {
+    color: #93C5FD;
+    text-transform: uppercase;
 }
