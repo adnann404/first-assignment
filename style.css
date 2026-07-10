@@ -12,7 +12,7 @@ nav {
     justify-content: space-between;
     padding: 24px 115px;
 }
-ul {
+.nav-link-wrap {
     list-style: none;
     display: flex;
     gap: 24px;
@@ -24,7 +24,7 @@ ul {
 li {
     color: #575757;
 }
-button{
+.primary-btn{
     background: #1D4ED8;
     color: white;
     padding: 12px 42px;
@@ -142,7 +142,49 @@ text-align: center;
     border: solid 1px;
     border-color: #E5E7EB;
     border-radius: 12px;
+    min-width: 360px;
 }
 .prc-wrap {
-    gap: 6px;
+    gap: 8px;
+    padding-bottom: 20px;
+    border-bottom:solid 1px;
+    border-color: #E5E7EB;
+}
+.card-type {
+    color: #888888;
+    text-transform: uppercase;
+}
+.price {
+    color: #0D1B2A;
+    font-size: 52px;
+}
+.prc-btm-p {
+    color: #888888;
+}
+.list-main-wrap{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+}
+.prc-list-item { 
+margin-bottom: 10px;
+}
+li::marker {
+    color: #2563EB;
+}
+.pcr-btn-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondary-btn {
+background-color: white;
+color: #2563EB;
+padding: 12px 24px;
+border: solid 1px;
+border-radius: 12px;
+border-color: #2563EB;
+font-weight: bold;
+display: inline;
+width: 100%;
 }
