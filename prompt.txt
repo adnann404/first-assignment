@@ -1,0 +1,3 @@
+Prompt - "I'm a beginner and learning html with CSS, so I have to make a section for a landing page of website's of "Developer conference show". The website landing has 3 more section those are hero section, speakers introduction section and show ticket section. Now suggest me a section related to the website and gimme the output. The section will be the lasty section of the landing, top of the footer section Section will have a heading with one or two lines of text and standard design. I want this section as simple as possible."
+
+I write the code by my own, just took help of Ai for knowing something if but did not copy any code from Ai.
